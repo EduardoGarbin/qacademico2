@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Acadêmico</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+  </style>  
+</head>
+<body>
+  <div class="pagina-inicial-container">
+    <header class="pagina-inicial-header">
+      <h1>Sistema Acadêmico</h1>
+      <div class="pagina-inicial-user-info">
+        <p>Nome do Aluno</p>
+        <p>Curso</p>
+      </div>
+      <a href="./login.html"><button class="pagina-inicial-logout">Sair</button></a>
+    </header>
+    <main class="pagina-inicial-main-content">
+      <a href="./boletim.html" class="pagina-inicial-card">Boletim</a>
+      <a href="./calendario.html" class="pagina-inicial-card">Calendário Escolar</a>
+      <a href="./boletim.html" class="pagina-inicial-card">Histórico Escolar</a>
+      <a href="./boletim.html" class="pagina-inicial-card">Matriz Curricular</a>
+    </main>
+  </div>
+</body>
+</html>
+

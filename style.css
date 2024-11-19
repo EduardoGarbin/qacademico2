@@ -103,3 +103,82 @@ body {
 .legend-box.holiday {
     background-color: #e74c3c;
 }
+
+/* Tela inicial */
+
+
+.pagina-inicial-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.pagina-inicial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.pagina-inicial-header h1 {
+    font-size: 2rem;
+}
+
+.pagina-inicial-user-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.pagina-inicial-user-info p {
+    font-size: 0.9rem;
+}
+
+.pagina-inicial-logout {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.pagina-inicial-logout:hover {
+    background-color: #e60000;
+}
+
+.pagina-inicial-main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+
+.pagina-inicial-card {
+    background-color: #ddd;
+    color: #000;
+    text-decoration: none;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-inicial-card:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
